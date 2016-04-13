@@ -8,13 +8,14 @@ body {
 }
 
 .page-header {
-    background-color: #ff9400;
+    background-color: grey;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
+    text-align: center;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: green;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -30,6 +31,7 @@ h1, h2, h3, h4 {
 .date {
     float: right;
     color: #828282;
+    ;
 }
 
 .save {
@@ -53,4 +55,9 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
     color: #000000;
+}
+
+.letter{
+    background-color: #ffe; /* Цвет фона */
+    color: #930; /* Цвет текста */
 }
